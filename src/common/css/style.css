@@ -1,0 +1,263 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+    font-style: normal;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: couriernew, courier, monospace;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+legend {
+    color: #000;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.border-box {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+html,
+body {
+
+    background-color: #e6e6e6;
+    /* max-width:750px;
+    min-width:320px; */
+    /*微信端*/
+    font-family: "PingFang SC","STHeitiSC-Light","Helvetica-Light","arial,sans-serif";
+    line-height: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div,
+p {
+    font-size: .30rem;
+}
+
+
+/*单行文本溢出省略*/
+
+.odd-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/*多行文本溢出省略*/
+
+.even-ellipsis {
+    display: -webkit-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
+/*3行文本溢出省略*/
+
+.three-ellipsis {
+    display: -webkit-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+
+/*去除图片默认样式*/
+
+img {
+    border: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+
+/*去除表单默认样式*/
+
+input,
+textarea {
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-1 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: block;
+    width: 0%;
+}
+
+.flex-align-center {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flex-align-bottom {
+    -webkit-box-align: flex-end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+}
+
+.flex-pack-center {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.flex-pack-justify {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+
+/* 懂球帝的字体大小 */
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:360px) {
+    html {
+        font-size: 16px
+    }
+}
+
+@media screen and (min-width:400px) {
+    html {
+        font-size: 18px
+    }
+}
+
+@media screen and (min-width:440px) {
+    html {
+        font-size: 20px
+    }
+}
+
+@media screen and (min-width:480px) {
+    html {
+        font-size: 22px
+    }
+}
+
+@media screen and (min-width:640px) {
+    html {
+        font-size: 28px
+    }
+}

@@ -1,0 +1,73 @@
+[
+    {
+    "id": 10,
+    "label": "重要",
+    "sort": 201,
+    "type": "important",
+    "api": "https://api.dongqiudi.com/data/tab/new/important"
+    },
+    {
+    "id": 5,
+    "label": "中超",
+    "sort": 284,
+    "type": "league",
+    "api": "https://api.dongqiudi.com/data/tab/league/new/43",
+    "league_id": 43
+    },
+    {
+    "id": 6,
+    "label": "英超",
+    "sort": 326,
+    "type": "league",
+    "api": "https://api.dongqiudi.com/data/tab/league/new/4",
+    "league_id": 4
+    },
+    {
+    "id": 7,
+    "label": "西甲",
+    "sort": 347,
+    "type": "league",
+    "api": "https://api.dongqiudi.com/data/tab/league/new/3",
+    "league_id": 3
+    },
+    {
+    "id": 9,
+    "label": "意甲",
+    "sort": 360,
+    "type": "league",
+    "api": "https://api.dongqiudi.com/data/tab/league/new/9",
+    "league_id": 9
+    },
+    {
+    "id": 8,
+    "label": "德甲",
+    "sort": 368,
+    "type": "league",
+    "api": "https://api.dongqiudi.com/data/tab/league/new/5",
+    "league_id": 5
+    },
+    {
+    "id": 13,
+    "label": "中甲",
+    "sort": 390,
+    "type": "league",
+    "api": "https://api.dongqiudi.com/data/tab/league/new/129",
+    "league_id": 129
+    },
+    {
+    "id": 15,
+    "label": "足协杯",
+    "sort": 401,
+    "type": "league",
+    "api": "https://api.dongqiudi.com/data/tab/league/new/251",
+    "league_id": 251
+    },
+    {
+    "id": 11,
+    "label": "中乙",
+    "sort": 412,
+    "type": "league",
+    "api": "https://api.dongqiudi.com/data/tab/league/new/1535",
+    "league_id": 1535
+    }
+]
