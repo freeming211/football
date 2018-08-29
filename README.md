@@ -1,6 +1,7 @@
 # scroll
 
-> b-scroll 
+#vue project name
+> football-vue 
 
 ## Build Setup
 
